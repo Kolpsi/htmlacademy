@@ -1,4 +1,95 @@
 body {
     font-family: 'Montserrat', 'Armitage', sans-serif;
-    font-family: 'Playfair Display', 'Trivia Serif', sans-serif;
+    /* font-family: 'Playfair Display', 'Trivia Serif', sans-serif; */
+}
+
+.site-list__link {
+    text-decoration: none;
+    color: #AE7C78
+}
+
+.site-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.page-main {
+    color: #AE7C78;
+    font-size: 16px;
+}
+
+.promo-title {
+    font-family: 'Playfair Display';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.promo-title__italic {
+    font-style: italic;
+    margin: 0;
+}
+
+.main-flowers {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #D89999;
+    border-radius: 40px;
+}
+
+.advantages-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.advantages-list__title {
+    font-weight: 500;
+}
+
+.main-slider__title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+}
+
+.product-card__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.product-card__paragraph {
+    line-height: 20px;
+}
+
+.product-card__size {
+    line-height: 20px;
+}
+
+.product-card__price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
 }
